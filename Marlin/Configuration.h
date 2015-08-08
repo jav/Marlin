@@ -160,9 +160,15 @@
 
 // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 // Ultimaker
-    #define  DEFAULT_Kp 22.2
-    #define  DEFAULT_Ki 1.08
-    #define  DEFAULT_Kd 114
+//  #define  DEFAULT_Kp 22.2
+//  #define  DEFAULT_Ki 1.08
+//  #define  DEFAULT_Kd 114
+
+// Measured on my prusa i3 reworked
+    #define  DEFAULT_Kp 18.43
+    #define  DEFAULT_Ki 1.09
+    #define  DEFAULT_Kd 78.15
+
 
 // MakerGear
 //    #define  DEFAULT_Kp 7.0
